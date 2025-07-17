@@ -149,10 +149,10 @@ async def process_calls_batch(calls: List[dict], job_id: str):
             
             if result["success"]:
                 results["processed"] += 1
-                logger.info(f"Successfully processed call {call_data[\"call_id\"]}")
+                logger.info(f"Successfully processed call {call_data['call_id']}")
             else:
                 results["failed"] += 1
-                logger.error(f"Failed to process call {call_data[\"call_id\"]}: {result.get(\"error\")}")
+                logger.error(f"Failed to process call {call_data['call_id']}: {result.get('error')}")
                 
         except Exception as e:
             results["failed"] += 1
