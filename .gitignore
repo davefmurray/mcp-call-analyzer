@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Downloads and temporary files
+downloads/
+*.mp3
+*.wav
+*.m4a
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Test outputs
+test_results_*.json
+test_results_*.md
+*.png
+*.jpg
+*.jpeg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Local scripts
+local_*.py
+debug_*.py
+click_*.py
+test_5_*.py
+
+# Secrets
+credentials.json
+secrets.yaml

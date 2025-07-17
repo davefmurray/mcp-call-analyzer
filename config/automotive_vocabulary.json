@@ -1,0 +1,277 @@
+{
+  "custom_vocabulary": {
+    "services": [
+      "oil change",
+      "synthetic oil",
+      "conventional oil", 
+      "high mileage oil",
+      "brake service",
+      "brake pads",
+      "brake rotors",
+      "brake fluid flush",
+      "transmission service",
+      "transmission flush",
+      "coolant flush",
+      "radiator service",
+      "tire rotation",
+      "wheel alignment",
+      "wheel balance",
+      "battery replacement",
+      "battery test",
+      "alternator",
+      "starter motor",
+      "serpentine belt",
+      "timing belt",
+      "water pump",
+      "thermostat",
+      "CV joint",
+      "CV axle",
+      "struts",
+      "shocks",
+      "suspension",
+      "power steering flush",
+      "differential service",
+      "cabin air filter",
+      "engine air filter",
+      "spark plugs",
+      "ignition coils",
+      "fuel injection service",
+      "diagnostic scan",
+      "check engine light",
+      "ABS light",
+      "TPMS",
+      "tire pressure monitoring",
+      "state inspection",
+      "emissions test",
+      "multi-point inspection"
+    ],
+    
+    "parts_brands": [
+      "Motorcraft",
+      "ACDelco", 
+      "Bosch",
+      "NGK",
+      "Denso",
+      "Wagner",
+      "Moog",
+      "Gates",
+      "Continental",
+      "Dayco"
+    ],
+    
+    "vehicle_makes": [
+      "Ford",
+      "Chevrolet",
+      "Toyota",
+      "Honda",
+      "Nissan",
+      "Mazda",
+      "Hyundai",
+      "Kia",
+      "Volkswagen",
+      "BMW",
+      "Mercedes",
+      "Audi",
+      "Lexus",
+      "Acura",
+      "Infiniti",
+      "Subaru",
+      "Jeep",
+      "Ram",
+      "GMC",
+      "Cadillac",
+      "Lincoln",
+      "Chrysler",
+      "Dodge",
+      "Buick",
+      "Tesla",
+      "Rivian"
+    ],
+    
+    "technical_terms": [
+      "OBD",
+      "OBD2",
+      "DTC",
+      "diagnostic trouble code",
+      "ECU",
+      "ECM",
+      "PCM",
+      "MAF sensor",
+      "O2 sensor",
+      "oxygen sensor",
+      "catalytic converter",
+      "EVAP",
+      "evaporative emission",
+      "PCV valve",
+      "idle air control",
+      "throttle body",
+      "fuel injector",
+      "coil pack",
+      "camshaft",
+      "crankshaft",
+      "head gasket",
+      "valve cover gasket",
+      "oil pan gasket",
+      "rear main seal",
+      "front main seal",
+      "power steering pump",
+      "rack and pinion",
+      "tie rod",
+      "ball joint",
+      "control arm",
+      "sway bar",
+      "stabilizer link"
+    ],
+    
+    "business_terms": [
+      "labor rate",
+      "shop supplies",
+      "disposal fee",
+      "diagnostic fee",
+      "estimate",
+      "quote",
+      "warranty",
+      "nationwide warranty",
+      "certified technician",
+      "ASE certified",
+      "factory trained",
+      "OEM parts",
+      "aftermarket parts",
+      "genuine parts",
+      "remanufactured",
+      "core charge",
+      "complimentary inspection",
+      "courtesy check",
+      "shuttle service",
+      "loaner vehicle",
+      "while you wait",
+      "same day service",
+      "appointment",
+      "walk-in",
+      "fleet service",
+      "commercial account"
+    ],
+    
+    "common_issues": [
+      "rough idle",
+      "hard starting",
+      "no start",
+      "overheating",
+      "coolant leak",
+      "oil leak", 
+      "transmission slip",
+      "grinding noise",
+      "squeaking",
+      "squealing",
+      "vibration",
+      "pulling to one side",
+      "steering wheel shake",
+      "brake pedal pulse",
+      "spongy brakes",
+      "dashboard warning light",
+      "battery drain",
+      "alternator failure",
+      "AC not cold",
+      "heater not working",
+      "window not working",
+      "door lock issue"
+    ]
+  },
+  
+  "script_keywords": {
+    "greeting": {
+      "required": [
+        "thank you for calling",
+        "how can I help"
+      ],
+      "optional": [
+        "good morning",
+        "good afternoon", 
+        "good evening"
+      ]
+    },
+    
+    "qualification": {
+      "required": [
+        "what seems to be",
+        "what can I help you with",
+        "what brings you in"
+      ],
+      "optional": [
+        "year make model",
+        "which vehicle",
+        "how many miles"
+      ]
+    },
+    
+    "recommendation": {
+      "required": [
+        "recommend",
+        "suggest",
+        "advise"
+      ],
+      "optional": [
+        "based on",
+        "due to",
+        "because of"
+      ]
+    },
+    
+    "appointment_booking": {
+      "required": [
+        "available",
+        "schedule",
+        "appointment"
+      ],
+      "optional": [
+        "earliest",
+        "soonest",
+        "preferred time"
+      ]
+    },
+    
+    "closing": {
+      "required": [
+        "anything else",
+        "thank you for"
+      ],
+      "optional": [
+        "have a great day",
+        "see you then",
+        "look forward to"
+      ]
+    }
+  },
+  
+  "sentiment_modifiers": {
+    "positive": [
+      "happy to help",
+      "absolutely",
+      "certainly",
+      "my pleasure",
+      "no problem",
+      "glad to",
+      "excellent choice"
+    ],
+    
+    "negative": [
+      "unfortunately", 
+      "cannot",
+      "unable to",
+      "not available",
+      "fully booked",
+      "extensive repair",
+      "costly"
+    ],
+    
+    "urgency": [
+      "as soon as possible",
+      "urgent",
+      "emergency",
+      "broken down",
+      "won't start",
+      "unsafe to drive",
+      "immediately"
+    ]
+  }
+}
