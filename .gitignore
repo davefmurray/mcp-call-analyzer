@@ -65,3 +65,7 @@ test_5_*.py
 # Secrets
 credentials.json
 secrets.yaml
+.mcp.json
+*/.mcp.json
+captured_headers.json
+backup_*/
