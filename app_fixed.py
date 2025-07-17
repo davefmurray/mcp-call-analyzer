@@ -127,7 +127,7 @@ async def process_call(request: CallRequest, background_tasks: BackgroundTasks):
         if not request.call_id:
             raise HTTPException(status_code=400, detail="call_id is required")
         
-        # Check services
+        # Check critical services
         supabase = get_supabase()
         if not supabase:
             raise HTTPException(status_code=503, detail="Database not available")
