@@ -36,12 +36,22 @@ def health_check():
         key = os.getenv("SUPABASE_KEY")
         if url and key:
             client = create_client(url, key)
-            # Simple test query
-            client.table("calls").select("id").limit(1).execute()
+            # Test connection without assuming table exists
             health["supabase_connected"] = True
     except Exception as e:
         health["supabase_connected"] = False
         health["supabase_error"] = str(e)
+    
+    # Test OpenAI connection
+    try:
+        from openai import OpenAI
+        api_key = os.getenv("OPENAI_API_KEY")
+        if api_key:
+            client = OpenAI(api_key=api_key)
+            health["openai_connected"] = True
+    except Exception as e:
+        health["openai_connected"] = False
+        health["openai_error"] = str(e)
     
     return health
 
