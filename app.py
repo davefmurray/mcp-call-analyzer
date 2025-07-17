@@ -10,13 +10,15 @@ def read_root():
         "status": "healthy",
         "service": "MCP Call Analyzer",
         "message": "Deployment working! Now we can add features.",
-        "timestamp": datetime.now().isoformat()
+        "timestamp": datetime.now().isoformat(),
+        "port": os.getenv("PORT", "8000")
     }
 
 @app.get("/health")
 def health_check():
     return {
         "status": "healthy",
+        "port": os.getenv("PORT", "8000"),
         "env_vars_set": {
             "dashboard_username": bool(os.getenv("DASHBOARD_USERNAME")),
             "dashboard_password": bool(os.getenv("DASHBOARD_PASSWORD")),
@@ -29,5 +31,6 @@ def health_check():
 
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.getenv("PORT", 8000))
+    port = int(os.getenv("PORT", "8000"))
+    print(f"Starting server on port {port}")
     uvicorn.run("app:app", host="0.0.0.0", port=port)
