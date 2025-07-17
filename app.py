@@ -62,10 +62,11 @@ def get_deepgram():
     """Get or create Deepgram client"""
     if _clients["deepgram"] is None:
         try:
-            from deepgram import Deepgram
+            # deepgram-sdk v2.x uses different import
+            from deepgram import DeepgramClient
             api_key = os.getenv("DEEPGRAM_API_KEY")
             if api_key:
-                _clients["deepgram"] = Deepgram(api_key)
+                _clients["deepgram"] = DeepgramClient(api_key)
                 logger.info("Deepgram client initialized")
         except Exception as e:
             logger.error(f"Deepgram init failed: {e}")
