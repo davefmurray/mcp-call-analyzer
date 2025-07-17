@@ -149,9 +149,7 @@ async def process_call(request: CallRequest, background_tasks: BackgroundTasks):
         
         # Add recording_url only if provided
         if request.recording_url:
-            # Try to map to the correct column
-            # The table might use mp3_url or storage_url instead
-            call_data["mp3_url"] = request.recording_url
+            call_data["recording_url"] = request.recording_url
         
         # Try to store in database
         db_success = False
