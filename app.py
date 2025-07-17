@@ -131,8 +131,7 @@ async def process_call(request: CallRequest, background_tasks: BackgroundTasks):
             raise HTTPException(status_code=503, detail="OpenAI not configured")
             
         deepgram = get_deepgram()
-        if not deepgram:
-            raise HTTPException(status_code=503, detail="Deepgram not configured")
+        # Deepgram is optional for now since we're using mock transcription
         
         # Create initial record
         call_data = {
