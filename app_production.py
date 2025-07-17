@@ -209,4 +209,4 @@ async def get_stats():
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8080))
     logger.info(f"Starting MCP Call Analyzer on port {port}")
-    uvicorn.run("app:app", host="0.0.0.0", port=port)
+    uvicorn.run("app_production:app", host="0.0.0.0", port=port)
