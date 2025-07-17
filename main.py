@@ -161,7 +161,7 @@ async def process_calls_batch(calls: List[dict], job_id: str):
     results["end_time"] = datetime.now()
     results["duration"] = (results["end_time"] - results["start_time"]).total_seconds()
     
-    logger.info(f"Batch processing complete for job {job_id}: {results[\"processed\"]} processed, {results[\"failed\"]} failed")
+    logger.info(f"Batch processing complete for job {job_id}: {results['processed']} processed, {results['failed']} failed")
     
     # Here you could save results to database or send notification
     return results
