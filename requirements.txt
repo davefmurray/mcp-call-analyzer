@@ -1,17 +1,4 @@
-# Core dependencies  
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
 python-dotenv==1.0.0
-
-# Supabase ecosystem
 supabase==2.0.3
-httpx==0.24.1
-
-# AI Services
-openai==1.6.1
-deepgram-sdk==2.11.0
-
-# Utils
-aiofiles==23.2.1
-pydantic==2.5.3
-tenacity==8.2.3
