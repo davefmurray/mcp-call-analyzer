@@ -21,4 +21,4 @@ pydub==0.25.1
 
 # Utilities
 tenacity==8.2.3
-httpx==0.25.2
+httpx==0.24.1
