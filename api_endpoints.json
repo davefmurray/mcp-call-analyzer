@@ -1,0 +1,439 @@
+[
+  {
+    "url": "https://autoservice.digitalconcierge.io/",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\""
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/auth.bbd025a33721961822a4.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/css/auth.fc633b4839eec5a14ea8.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/meta.json?date=1752632709.98",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/images/OktoRocket-DC-VerticalLogo-RGB.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.api.digitalconcierge.io/auth/authenticate",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": "{\"username\":\"dev\",\"password\":\"DFMdev12\",\"domain\":\"autoservice\"}"
+  },
+  {
+    "url": "https://autoservice.api.digitalconcierge.io/users/myInfo",
+    "method": "GET",
+    "headers": {
+      "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldiIsImlkIjoiNjgzY2E0MjRlZmIzNDAyMzU3NmU0ZDA2Iiwicm9sZSI6IjAiLCJ0ZW5hbnRJZCI6IjY1N2NhZDBiYTJhOThkNDhmZGM5YWNlYyIsImNsaWVudElkIjo1OTYsImlhdCI6MTc1MjYzMjcxMywiZXhwIjoxNzUzMjM3NTEzfQ.MEFZQk-v9rl8hTB4UQddAnwgDnlHn1A_XBjXg8G9hjM",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/userPortal/admin",
+    "method": "GET",
+    "headers": {
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\""
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/vendor.581bb05a581dd4f29e18.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/dashboard.43028d4471aacb2c2701.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/css/vendor.19e46564bbc02337cf86.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/css/dashboard.3d305753601b443a1305.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://o67673.ingest.sentry.io/api/231689/envelope/?sentry_version=7&sentry_key=87cff743c4ee476fb7fce6464e0a8564&sentry_client=sentry.javascript.react%2F9.38.0",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": "{\"sent_at\":\"2025-07-16T02:25:14.713Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"9.38.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"9634326d67a14fbb9a8c4ca28fa5bb5f\",\"init\":true,\"started\":\"2025-07-16T02:25:14.713Z\",\"timestamp\":\"2025-07-16T02:25:14.713Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"3.1.116\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36\"}}"
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\""
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.api.digitalconcierge.io/sites/list",
+    "method": "GET",
+    "headers": {
+      "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldiIsImlkIjoiNjgzY2E0MjRlZmIzNDAyMzU3NmU0ZDA2Iiwicm9sZSI6IjAiLCJ0ZW5hbnRJZCI6IjY1N2NhZDBiYTJhOThkNDhmZGM5YWNlYyIsImNsaWVudElkIjo1OTYsImlhdCI6MTc1MjYzMjcxMywiZXhwIjoxNzUzMjM3NTEzfQ.MEFZQk-v9rl8hTB4UQddAnwgDnlHn1A_XBjXg8G9hjM",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.api.digitalconcierge.io/sites/settings",
+    "method": "GET",
+    "headers": {
+      "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldiIsImlkIjoiNjgzY2E0MjRlZmIzNDAyMzU3NmU0ZDA2Iiwicm9sZSI6IjAiLCJ0ZW5hbnRJZCI6IjY1N2NhZDBiYTJhOThkNDhmZGM5YWNlYyIsImNsaWVudElkIjo1OTYsImlhdCI6MTc1MjYzMjcxMywiZXhwIjoxNzUzMjM3NTEzfQ.MEFZQk-v9rl8hTB4UQddAnwgDnlHn1A_XBjXg8G9hjM",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.api.digitalconcierge.io/users/findAll",
+    "method": "GET",
+    "headers": {
+      "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldiIsImlkIjoiNjgzY2E0MjRlZmIzNDAyMzU3NmU0ZDA2Iiwicm9sZSI6IjAiLCJ0ZW5hbnRJZCI6IjY1N2NhZDBiYTJhOThkNDhmZGM5YWNlYyIsImNsaWVudElkIjo1OTYsImlhdCI6MTc1MjYzMjcxMywiZXhwIjoxNzUzMjM3NTEzfQ.MEFZQk-v9rl8hTB4UQddAnwgDnlHn1A_XBjXg8G9hjM",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.api.digitalconcierge.io/ro/inspection_definitions",
+    "method": "POST",
+    "headers": {
+      "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldiIsImlkIjoiNjgzY2E0MjRlZmIzNDAyMzU3NmU0ZDA2Iiwicm9sZSI6IjAiLCJ0ZW5hbnRJZCI6IjY1N2NhZDBiYTJhOThkNDhmZGM5YWNlYyIsImNsaWVudElkIjo1OTYsImlhdCI6MTc1MjYzMjcxMywiZXhwIjoxNzUzMjM3NTEzfQ.MEFZQk-v9rl8hTB4UQddAnwgDnlHn1A_XBjXg8G9hjM",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/7261.fa815bbcf98cb1e5fefb.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/images/OktoRocket-DC-LandscapeLogo-RGB.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/images/OktoRocket-Website-Reverse-Logo.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice-digitalconcierge-io.s3.amazonaws.com/profilePhoto/c7aa76c7-dc66-40ec-b3c2-8891c0abf341.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/3148.b6e1aeec9ba37d5eb2f6.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/7947.cb20ae1054520408d061.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/2543.2cb79e961856232b3da6.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/6657.cec1c654b9f7705b2461.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/7712.7ed779125d8a8d42ef6d.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/3490.b15e4f209b46bdcffa53.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/css/8253.76a63a7015f99aa62a0d.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/js/8253.f09c244ca42b09cbb630.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.api.digitalconcierge.io/call/list",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldiIsImlkIjoiNjgzY2E0MjRlZmIzNDAyMzU3NmU0ZDA2Iiwicm9sZSI6IjAiLCJ0ZW5hbnRJZCI6IjY1N2NhZDBiYTJhOThkNDhmZGM5YWNlYyIsImNsaWVudElkIjo1OTYsImlhdCI6MTc1MjYzMjcxMywiZXhwIjoxNzUzMjM3NTEzfQ.MEFZQk-v9rl8hTB4UQddAnwgDnlHn1A_XBjXg8G9hjM",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json"
+    },
+    "post_data": "{\"query\":{\"$and\":[{\"date_created\":{\"$gte\":\"2025-07-08T00:00:00-04:00\"}},{\"date_created\":{\"$lte\":\"2025-07-15T23:59:59-04:00\"}}]},\"searchText\":\"\",\"page\":1,\"limit\":20,\"sort\":{\"date_created\":1}}"
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/images/phone-inbound.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/images/ai_icon.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice.digitalconcierge.io/images/phone-outbound.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/userPortal/admin/calls",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://autoservice-digitalconcierge-io.s3.amazonaws.com/profilePhoto/profile-placeholder.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://autoservice.digitalconcierge.io/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"99\", \"Chromium\";v=\"136\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  }
+]

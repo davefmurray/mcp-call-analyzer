@@ -1,0 +1,193 @@
+{
+  "timestamp": "2025-07-16T17:10:23.549603",
+  "results": {
+    "total_calls": 5,
+    "successful": 5,
+    "failed": 0,
+    "errors": [],
+    "insights": [
+      {
+        "call_id": "CAa4dc3d3112ae5ef2bb7a4ffb23b2dbb3",
+        "customer": "ISAAC VILLA",
+        "category": "service_inquiry",
+        "sentiment": "positive",
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the representative, responded by offering to get Noah to arrange the ride for Danny.",
+        "key_points": [
+          "Danny Gomez needs a ride to pick up his car.",
+          "Dave from JJ Auto offered to get Noah to arrange the ride."
+        ]
+      },
+      {
+        "call_id": "CA0641234fca1ca1c7871b140df010c41f",
+        "customer": "JANET GOMEZ",
+        "category": "service_inquiry",
+        "sentiment": "neutral",
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the representative, offered to get Noah to arrange the transportation for Danny.",
+        "key_points": [
+          "Danny Gomez needs a ride to pick up their car.",
+          "Dave from JJ Auto responded by offering to get Noah to arrange the ride.",
+          "The call was focused on arranging a service rather than discussing car issues or complaints."
+        ]
+      },
+      {
+        "call_id": "CAb653e4cdfcf379ba4dc97cebf12c2811",
+        "customer": "SEYMORE JAMIESH",
+        "category": "service_inquiry",
+        "sentiment": "positive",
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the JJ Auto representative, quickly offered to get Noah to arrange the transportation for Danny.",
+        "key_points": [
+          "Danny Gomez called requesting a ride to pick up his car.",
+          "Dave from JJ Auto responded positively and offered assistance.",
+          "Noah is mentioned as the person to arrange the ride."
+        ]
+      },
+      {
+        "call_id": "CAa5cbe57a8f3acfa11b034c41856d9cb7",
+        "customer": "LINDA WILLSON SHAVERS",
+        "category": "service_inquiry",
+        "sentiment": "positive",
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the representative, offered to get Noah to arrange the transportation for Danny.",
+        "key_points": [
+          "Danny Gomez needs a ride to pick up his car.",
+          "Dave responded positively and offered to get Noah to help.",
+          "The call was brief and to the point."
+        ]
+      },
+      {
+        "call_id": "CAbabee2dbca9380cae39d60b202671410",
+        "customer": "CUNNINGHAM,JAME",
+        "category": "service_inquiry",
+        "sentiment": "positive",
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the representative, offered to arrange the ride by getting Noah to assist further.",
+        "key_points": [
+          "Danny Gomez needs a ride to pick up his car.",
+          "Dave from JJ Auto is arranging for Noah to assist with the ride."
+        ]
+      }
+    ]
+  },
+  "call_details": [
+    {
+      "call_id": "CAa4dc3d3112ae5ef2bb7a4ffb23b2dbb3",
+      "customer": "ISAAC VILLA",
+      "duration": 107,
+      "success": true,
+      "stages": {
+        "download": "completed",
+        "transcription": "completed",
+        "analysis": "completed",
+        "storage": "completed"
+      },
+      "analysis": {
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the representative, responded by offering to get Noah to arrange the ride for Danny.",
+        "customer_intent": "To arrange a ride to pick up his car.",
+        "sentiment": "positive",
+        "category": "service_inquiry",
+        "follow_up_needed": "No",
+        "reason_for_decision": "The call ended with a solution in progress, as Dave was about to get Noah to assist Danny with the requested ride.",
+        "key_points": [
+          "Danny Gomez needs a ride to pick up his car.",
+          "Dave from JJ Auto offered to get Noah to arrange the ride."
+        ]
+      }
+    },
+    {
+      "call_id": "CA0641234fca1ca1c7871b140df010c41f",
+      "customer": "JANET GOMEZ",
+      "duration": 282,
+      "success": true,
+      "stages": {
+        "download": "completed",
+        "transcription": "completed",
+        "analysis": "completed",
+        "storage": "completed"
+      },
+      "analysis": {
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the representative, offered to get Noah to arrange the transportation for Danny.",
+        "customer_intent": "To arrange a ride to pick up their car.",
+        "sentiment": "neutral",
+        "category": "service_inquiry",
+        "follow_up_needed": "Yes",
+        "why_follow_up_needed": "To confirm that the ride arrangement was successful and to ensure Danny Gomez's satisfaction with the service.",
+        "key_points": [
+          "Danny Gomez needs a ride to pick up their car.",
+          "Dave from JJ Auto responded by offering to get Noah to arrange the ride.",
+          "The call was focused on arranging a service rather than discussing car issues or complaints."
+        ]
+      }
+    },
+    {
+      "call_id": "CAb653e4cdfcf379ba4dc97cebf12c2811",
+      "customer": "SEYMORE JAMIESH",
+      "duration": 203,
+      "success": true,
+      "stages": {
+        "download": "completed",
+        "transcription": "completed",
+        "analysis": "completed",
+        "storage": "completed"
+      },
+      "analysis": {
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the JJ Auto representative, quickly offered to get Noah to arrange the transportation for Danny.",
+        "customer_intent": "To arrange a ride to pick up the car from JJ Auto.",
+        "sentiment": "positive",
+        "category": "service_inquiry",
+        "follow_up_needed": "Yes",
+        "why_follow_up_needed": "To confirm the arrangement for the ride and ensure Danny Gomez successfully picks up his car.",
+        "key_points": [
+          "Danny Gomez called requesting a ride to pick up his car.",
+          "Dave from JJ Auto responded positively and offered assistance.",
+          "Noah is mentioned as the person to arrange the ride."
+        ]
+      }
+    },
+    {
+      "call_id": "CAa5cbe57a8f3acfa11b034c41856d9cb7",
+      "customer": "LINDA WILLSON SHAVERS",
+      "duration": 128,
+      "success": true,
+      "stages": {
+        "download": "completed",
+        "transcription": "completed",
+        "analysis": "completed",
+        "storage": "completed"
+      },
+      "analysis": {
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the representative, offered to get Noah to arrange the transportation for Danny.",
+        "customer_intent": "To arrange a ride to pick up the car from JJ Auto.",
+        "sentiment": "positive",
+        "category": "service_inquiry",
+        "follow_up_needed": "No",
+        "key_points": [
+          "Danny Gomez needs a ride to pick up his car.",
+          "Dave responded positively and offered to get Noah to help.",
+          "The call was brief and to the point."
+        ]
+      }
+    },
+    {
+      "call_id": "CAbabee2dbca9380cae39d60b202671410",
+      "customer": "CUNNINGHAM,JAME",
+      "duration": 208,
+      "success": true,
+      "stages": {
+        "download": "completed",
+        "transcription": "completed",
+        "analysis": "completed",
+        "storage": "completed"
+      },
+      "analysis": {
+        "summary": "Danny Gomez called JJ Auto requesting a ride to pick up his car. Dave, the representative, offered to arrange the ride by getting Noah to assist further.",
+        "customer_intent": "To arrange a ride to pick up the car from JJ Auto.",
+        "sentiment": "positive",
+        "category": "service_inquiry",
+        "follow_up_needed": "No",
+        "reason_for_follow_up_decision": "The call ended with a solution in progress, as Dave was arranging for Noah to provide the necessary assistance.",
+        "key_points": [
+          "Danny Gomez needs a ride to pick up his car.",
+          "Dave from JJ Auto is arranging for Noah to assist with the ride."
+        ]
+      }
+    }
+  ]
+}

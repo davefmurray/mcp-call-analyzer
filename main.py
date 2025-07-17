@@ -98,7 +98,7 @@ async def process_calls(
             call for call in calls if call.get("RecordingSid")
         ]
         
-        job_id = f"job_{datetime.now().strftime(\"%Y%m%d_%H%M%S\")}"
+        job_id = f"job_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         
         # Queue background processing
         background_tasks.add_task(

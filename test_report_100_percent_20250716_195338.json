@@ -1,0 +1,506 @@
+{
+  "test_date": "2025-07-16T19:53:38.031562",
+  "download_results": {
+    "successful": [
+      {
+        "call": {
+          "call_id": "CAa5cbe57a8f3acfa11b034c41856d9cb7",
+          "dc_call_id": "68780a43d84270fd7280e818",
+          "customer_name": "LINDA WILLSON SHAVERS",
+          "customer_number": "+19046317142",
+          "call_direction": "inbound",
+          "duration_seconds": 128,
+          "date_created": "2025-07-16T20:23:31.782Z",
+          "has_recording": true,
+          "status": "pending_download",
+          "extension": "2001"
+        },
+        "audio_path": "downloads/CAa5cbe57a8f3acfa11b034c41856d9cb7.mp3"
+      }
+    ],
+    "failed": [
+      {
+        "call_id": "CA8f7adcb0e2c63185c66e9d86fdac970a",
+        "dc_call_id": "687826ced84270fd7280ec03",
+        "customer_name": "MIDDLEBURG   FL",
+        "customer_number": "+19046212126",
+        "call_direction": "outbound",
+        "duration_seconds": 58,
+        "date_created": "2025-07-16T22:25:18.332Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2003"
+      },
+      {
+        "call_id": "CAadb1443c03527e447fd8803055dc2472",
+        "dc_call_id": "68781abed84270fd7280eb53",
+        "customer_name": "CAMEREN MOORE",
+        "customer_number": "+12694621419",
+        "call_direction": "inbound",
+        "duration_seconds": 170,
+        "date_created": "2025-07-16T21:33:50.788Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2001"
+      },
+      {
+        "call_id": "CA3099a94fb8b4203b438ce571fa30ffca",
+        "dc_call_id": "68781808d84270fd7280ead4",
+        "customer_name": "CUNNINGHAM,JAME",
+        "customer_number": "+19046212126",
+        "call_direction": "outbound",
+        "duration_seconds": 243,
+        "date_created": "2025-07-16T21:22:16.635Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2002"
+      },
+      {
+        "call_id": "CAffa16b16ac4a973c19354b55af6c008f",
+        "dc_call_id": "68781500d84270fd7280ea57",
+        "customer_name": "MIDDLEBURG   FL",
+        "customer_number": "+19042033020",
+        "call_direction": "inbound",
+        "duration_seconds": 191,
+        "date_created": "2025-07-16T21:09:20.476Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2003"
+      },
+      {
+        "call_id": "CAca00ec24b8e95e004b28f07c1188d657",
+        "dc_call_id": "6878146dd84270fd7280ea28",
+        "customer_name": "SCOTT NOONAN",
+        "customer_number": "+16232585031",
+        "call_direction": "inbound",
+        "duration_seconds": 233,
+        "date_created": "2025-07-16T21:06:53.123Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2001"
+      },
+      {
+        "call_id": "CA256cc29d3131f03ddadaf7bb342487cd",
+        "dc_call_id": "68781404d84270fd7280e9c7",
+        "customer_name": "TOLL FREE CALL",
+        "customer_number": "+19046212126",
+        "call_direction": "outbound",
+        "duration_seconds": 686,
+        "date_created": "2025-07-16T21:05:08.692Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2002"
+      },
+      {
+        "call_id": "CAa4dc3d3112ae5ef2bb7a4ffb23b2dbb3",
+        "dc_call_id": "68780f8ed84270fd7280e948",
+        "customer_name": "ISAAC VILLA",
+        "customer_number": "+19159963497",
+        "call_direction": "inbound",
+        "duration_seconds": 107,
+        "date_created": "2025-07-16T20:46:06.398Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2005"
+      },
+      {
+        "call_id": "CA0be2a2ebd184558ea5241da3dac1698e",
+        "dc_call_id": "68780ea3d84270fd7280e92b",
+        "customer_name": "VITALI RUVASHKA",
+        "customer_number": "+19046212126",
+        "call_direction": "outbound",
+        "duration_seconds": 854,
+        "date_created": "2025-07-16T20:42:11.467Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2004"
+      },
+      {
+        "call_id": "CA0641234fca1ca1c7871b140df010c41f",
+        "dc_call_id": "68780badd84270fd7280e89c",
+        "customer_name": "JANET GOMEZ",
+        "customer_number": "+19045213434",
+        "call_direction": "inbound",
+        "duration_seconds": 282,
+        "date_created": "2025-07-16T20:29:33.860Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2005"
+      },
+      {
+        "call_id": "CAb653e4cdfcf379ba4dc97cebf12c2811",
+        "dc_call_id": "68780adfd84270fd7280e862",
+        "customer_name": "SEYMORE JAMIESH",
+        "customer_number": "+19048025742",
+        "call_direction": "inbound",
+        "duration_seconds": 203,
+        "date_created": "2025-07-16T20:26:07.659Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2005"
+      },
+      {
+        "call_id": "CAbabee2dbca9380cae39d60b202671410",
+        "dc_call_id": "68780917d84270fd7280e7e0",
+        "customer_name": "CUNNINGHAM,JAME",
+        "customer_number": "+19046212126",
+        "call_direction": "outbound",
+        "duration_seconds": 208,
+        "date_created": "2025-07-16T20:18:31.658Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2003"
+      },
+      {
+        "call_id": "CAb1dca23ff9ffb8d098d5f5a63397e68c",
+        "dc_call_id": "6878074ed84270fd7280e784",
+        "customer_name": "FENIX PARTS",
+        "customer_number": "+19046212126",
+        "call_direction": "outbound",
+        "duration_seconds": 154,
+        "date_created": "2025-07-16T20:10:54.444Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2005"
+      },
+      {
+        "call_id": "CA27314007d2e55b4b2ff2c0b2e9ebfcb1",
+        "dc_call_id": "6878062bd84270fd7280e73c",
+        "customer_name": "KIARA ANSLEY",
+        "customer_number": "+19046510623",
+        "call_direction": "inbound",
+        "duration_seconds": 348,
+        "date_created": "2025-07-16T20:06:03.894Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "4111"
+      },
+      {
+        "call_id": "CAdf3aa590cf3cbead01f492e6be765d08",
+        "dc_call_id": "68780599d84270fd7280e6e2",
+        "customer_name": "KAYNYIA HUGGINS",
+        "customer_number": "+17862166705",
+        "call_direction": "inbound",
+        "duration_seconds": 226,
+        "date_created": "2025-07-16T20:03:37.497Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2001"
+      },
+      {
+        "call_id": "CA61bcab59569425fc20c06a520560d797",
+        "dc_call_id": "68780563d84270fd7280e6c4",
+        "customer_name": "FENIX PARTS",
+        "customer_number": "+19046212126",
+        "call_direction": "outbound",
+        "duration_seconds": 117,
+        "date_created": "2025-07-16T20:02:43.931Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2005"
+      },
+      {
+        "call_id": "CAa261564c9a6bfc01b3542466778fce06",
+        "dc_call_id": "6878049fd84270fd7280e66d",
+        "customer_name": "VITELITY, LLC.",
+        "customer_number": "+19046212126",
+        "call_direction": "outbound",
+        "duration_seconds": 176,
+        "date_created": "2025-07-16T19:59:27.696Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2005"
+      },
+      {
+        "call_id": "CA02e937274dcab0b0502949f5afd890b9",
+        "dc_call_id": "687803d1d84270fd7280e5f1",
+        "customer_name": "SHARYL LOPEZ",
+        "customer_number": "+13476083515",
+        "call_direction": "inbound",
+        "duration_seconds": 146,
+        "date_created": "2025-07-16T19:56:01.205Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2003"
+      },
+      {
+        "call_id": "CA878c5b592fbdaa07e5073a090f4ea1f8",
+        "dc_call_id": "68780272d84270fd7280e5bb",
+        "customer_name": "TOLL FREE CALL",
+        "customer_number": "+19046212126",
+        "call_direction": "outbound",
+        "duration_seconds": 4348,
+        "date_created": "2025-07-16T19:50:10.301Z",
+        "has_recording": true,
+        "status": "pending_download",
+        "extension": "2002"
+      }
+    ],
+    "total": 19
+  },
+  "process_results": [
+    {
+      "success": true,
+      "call_id": "CAa5cbe57a8f3acfa11b034c41856d9cb7",
+      "transcription": {
+        "success": true,
+        "transcript": "Good morning, Dave. This is Danny Gomez. I need a ride to go pick up my car. Okay. Thanks. Goodbye.",
+        "confidence": 0.99603087,
+        "speakers": {
+          "employee": {
+            "channel": 0,
+            "utterances": [
+              "Good morning, Dave. This is Danny Gomez. I need a ride to go pick up my car.",
+              "Okay. Thanks.",
+              "Goodbye."
+            ]
+          },
+          "customer": {
+            "channel": 1,
+            "utterances": [
+              "Good morning. Thanks for calling JJ Auto. This is Dave. How can I help you?",
+              "Easy. Light? Okay. Great. Let me grab Noah for you. He'll get you set up. I'm gonna get you on over here. Okay?",
+              "Thank you."
+            ]
+          }
+        },
+        "sentiment": {
+          "overall": 1.0,
+          "by_speaker": {},
+          "timeline": []
+        },
+        "topics": [],
+        "entities": {},
+        "utterances": [
+          {
+            "speaker": "customer",
+            "text": "Good morning. Thanks for calling JJ Auto. This is Dave. How can I help you?",
+            "start": 1.52,
+            "end": 4.66,
+            "confidence": 0.9905798,
+            "channel": 1
+          },
+          {
+            "speaker": "employee",
+            "text": "Good morning, Dave. This is Danny Gomez. I need a ride to go pick up my car.",
+            "start": 4.96,
+            "end": 9.3,
+            "confidence": 0.9555691,
+            "channel": 0
+          },
+          {
+            "speaker": "customer",
+            "text": "Easy. Light? Okay. Great. Let me grab Noah for you. He'll get you set up. I'm gonna get you on over here. Okay?",
+            "start": 9.36,
+            "end": 13.38,
+            "confidence": 0.9117152,
+            "channel": 1
+          },
+          {
+            "speaker": "employee",
+            "text": "Okay. Thanks.",
+            "start": 13.624938,
+            "end": 14.604938,
+            "confidence": 0.9603644,
+            "channel": 0
+          },
+          {
+            "speaker": "customer",
+            "text": "Thank you.",
+            "start": 14.16,
+            "end": 14.874937,
+            "confidence": 0.99708754,
+            "channel": 1
+          },
+          {
+            "speaker": "employee",
+            "text": "Goodbye.",
+            "start": 15.064938,
+            "end": 15.564938,
+            "confidence": 0.77295,
+            "channel": 0
+          }
+        ],
+        "summary": null,
+        "language": null,
+        "duration": null,
+        "script_compliance": {
+          "score": 0.0,
+          "missing_components": [
+            "greeting",
+            "appointment_confirm",
+            "upsell",
+            "closing"
+          ],
+          "found_components": [],
+          "details": {
+            "greeting": {
+              "found": false,
+              "expected": [
+                "thank you for calling",
+                "how can I help"
+              ]
+            },
+            "appointment_confirm": {
+              "found": false,
+              "expected": [
+                "scheduled for",
+                "confirm your appointment"
+              ]
+            },
+            "upsell": {
+              "found": false,
+              "expected": [
+                "recommend",
+                "also suggest",
+                "while you're here"
+              ]
+            },
+            "closing": {
+              "found": false,
+              "expected": [
+                "anything else",
+                "thank you for choosing"
+              ]
+            }
+          }
+        },
+        "sales_metrics": {
+          "appointment_scheduled": false,
+          "services_mentioned": [],
+          "price_discussed": false,
+          "prices_mentioned": [],
+          "upsell_attempted": false,
+          "upsell_accepted": false,
+          "competitor_mentioned": false,
+          "follow_up_scheduled": false,
+          "outcome": "unknown"
+        },
+        "quality_metrics": {
+          "interruptions": 1,
+          "silence_periods": 0,
+          "talk_ratio": {
+            "employee": 42.497457271983066,
+            "customer": 57.50254272801693
+          },
+          "average_response_time": 0,
+          "empathy_indicators": 0,
+          "professionalism_score": 0
+        }
+      },
+      "analysis": {
+        "summary": "Danny Gomez called requesting a ride to pick up their car, and the call was brief and to the point.",
+        "customer_intent": "To request a ride for picking up their car.",
+        "outcome": "It was implied that the request for a ride was acknowledged and would be provided.",
+        "follow_up_needed": "Yes, arrangements for the ride need to be made and communicated to Danny.",
+        "sentiment": "Neutral, as the call was too brief to assess any strong sentiment but there were no negative cues.",
+        "category": "ride_request",
+        "missed_opportunity": "None evident from the call transcript. The call was straightforward without any discussion on services or sales.",
+        "key_metrics": "None mentioned directly in the call.",
+        "action_items": [
+          "Arrange transportation for Danny Gomez to pick up their car.",
+          "Confirm the details of the ride (time, location) with Danny."
+        ],
+        "enhanced_summary": null,
+        "script_compliance": {
+          "score": 0.0,
+          "missing_components": [
+            "greeting",
+            "appointment_confirm",
+            "upsell",
+            "closing"
+          ],
+          "found_components": [],
+          "details": {
+            "greeting": {
+              "found": false,
+              "expected": [
+                "thank you for calling",
+                "how can I help"
+              ]
+            },
+            "appointment_confirm": {
+              "found": false,
+              "expected": [
+                "scheduled for",
+                "confirm your appointment"
+              ]
+            },
+            "upsell": {
+              "found": false,
+              "expected": [
+                "recommend",
+                "also suggest",
+                "while you're here"
+              ]
+            },
+            "closing": {
+              "found": false,
+              "expected": [
+                "anything else",
+                "thank you for choosing"
+              ]
+            }
+          }
+        },
+        "sales_metrics": {
+          "appointment_scheduled": false,
+          "services_mentioned": [],
+          "price_discussed": false,
+          "prices_mentioned": [],
+          "upsell_attempted": false,
+          "upsell_accepted": false,
+          "competitor_mentioned": false,
+          "follow_up_scheduled": false,
+          "outcome": "unknown"
+        },
+        "quality_metrics": {
+          "interruptions": 1,
+          "silence_periods": 0,
+          "talk_ratio": {
+            "employee": 42.497457271983066,
+            "customer": 57.50254272801693
+          },
+          "average_response_time": 0,
+          "empathy_indicators": 0,
+          "professionalism_score": 0
+        },
+        "topics": [],
+        "entities": {},
+        "sentiment_analysis": {
+          "overall": 1.0,
+          "by_speaker": {},
+          "timeline": []
+        }
+      },
+      "insights": {
+        "key_findings": [],
+        "action_items": [],
+        "coaching_opportunities": [
+          {
+            "area": "Script Adherence",
+            "score": 0.0,
+            "missing": [
+              "greeting",
+              "appointment_confirm",
+              "upsell",
+              "closing"
+            ],
+            "recommendation": "Review call script training"
+          }
+        ],
+        "business_intelligence": {
+          "services_discussed": [],
+          "price_sensitivity": "low",
+          "conversion_likelihood": "medium",
+          "customer_topics": []
+        }
+      }
+    }
+  ],
+  "statistics": {
+    "download_rate": 5.263157894736842,
+    "download_time": 0.918241,
+    "processing_success": 1
+  }
+}

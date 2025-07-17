@@ -1,0 +1,432 @@
+{
+  "timestamp": "2025-07-16T17:27:21.530088",
+  "dry_run": false,
+  "actions": [
+    {
+      "action": "Created backup directory",
+      "details": "/Users/dfm/Documents/GitHub/mcp-call-analyzer/backup_20250716_172721",
+      "timestamp": "2025-07-16T17:27:21.507384"
+    },
+    {
+      "action": "Backed up",
+      "details": ".env",
+      "timestamp": "2025-07-16T17:27:21.508280"
+    },
+    {
+      "action": "Backed up",
+      "details": "requirements.txt",
+      "timestamp": "2025-07-16T17:27:21.508822"
+    },
+    {
+      "action": "Backed up",
+      "details": "README.md",
+      "timestamp": "2025-07-16T17:27:21.509534"
+    },
+    {
+      "action": "Backed up",
+      "details": "captured_headers.json",
+      "timestamp": "2025-07-16T17:27:21.510367"
+    },
+    {
+      "action": "Backed up",
+      "details": ".mcp.json",
+      "timestamp": "2025-07-16T17:27:21.510991"
+    },
+    {
+      "action": "Created folder",
+      "details": "src",
+      "timestamp": "2025-07-16T17:27:21.511078"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "src/scrapers",
+      "timestamp": "2025-07-16T17:27:21.511154"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "src/pipelines",
+      "timestamp": "2025-07-16T17:27:21.511221"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "src/utils",
+      "timestamp": "2025-07-16T17:27:21.511285"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "src/downloaders",
+      "timestamp": "2025-07-16T17:27:21.511346"
+    },
+    {
+      "action": "Created folder",
+      "details": "tests",
+      "timestamp": "2025-07-16T17:27:21.511411"
+    },
+    {
+      "action": "Created folder",
+      "details": "scripts",
+      "timestamp": "2025-07-16T17:27:21.511477"
+    },
+    {
+      "action": "Created folder",
+      "details": "docs",
+      "timestamp": "2025-07-16T17:27:21.511499"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "docs/images",
+      "timestamp": "2025-07-16T17:27:21.511569"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "docs/api",
+      "timestamp": "2025-07-16T17:27:21.511589"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "docs/examples",
+      "timestamp": "2025-07-16T17:27:21.511618"
+    },
+    {
+      "action": "Created folder",
+      "details": "data",
+      "timestamp": "2025-07-16T17:27:21.511694"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "data/downloads",
+      "timestamp": "2025-07-16T17:27:21.511765"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "data/logs",
+      "timestamp": "2025-07-16T17:27:21.511830"
+    },
+    {
+      "action": "Created subfolder",
+      "details": "data/temp",
+      "timestamp": "2025-07-16T17:27:21.511897"
+    },
+    {
+      "action": "Created folder",
+      "details": "config",
+      "timestamp": "2025-07-16T17:27:21.511971"
+    },
+    {
+      "action": "Moved file",
+      "details": "scraper_api.py -> src/scrapers/",
+      "timestamp": "2025-07-16T17:27:21.512387"
+    },
+    {
+      "action": "Moved file",
+      "details": "final_scraper.py -> src/scrapers/",
+      "timestamp": "2025-07-16T17:27:21.512658"
+    },
+    {
+      "action": "Moved file",
+      "details": "mcp_browser_scraper.py -> src/scrapers/",
+      "timestamp": "2025-07-16T17:27:21.512933"
+    },
+    {
+      "action": "Moved file",
+      "details": "scrape_aggrid_calls.py -> src/scrapers/",
+      "timestamp": "2025-07-16T17:27:21.513189"
+    },
+    {
+      "action": "Moved file",
+      "details": "api_pipeline_complete.py -> src/pipelines/",
+      "timestamp": "2025-07-16T17:27:21.513334"
+    },
+    {
+      "action": "Moved file",
+      "details": "final_hybrid_pipeline.py -> src/pipelines/",
+      "timestamp": "2025-07-16T17:27:21.513617"
+    },
+    {
+      "action": "Moved file",
+      "details": "batch_processor.py -> src/pipelines/",
+      "timestamp": "2025-07-16T17:27:21.514245"
+    },
+    {
+      "action": "Moved file",
+      "details": "capture_headers.py -> src/utils/",
+      "timestamp": "2025-07-16T17:27:21.514519"
+    },
+    {
+      "action": "Moved file",
+      "details": "find_api_endpoints.py -> src/utils/",
+      "timestamp": "2025-07-16T17:27:21.514790"
+    },
+    {
+      "action": "Moved file",
+      "details": "find_audio_link.py -> src/utils/",
+      "timestamp": "2025-07-16T17:27:21.515050"
+    },
+    {
+      "action": "Moved file",
+      "details": "setup_storage.py -> src/utils/",
+      "timestamp": "2025-07-16T17:27:21.515339"
+    },
+    {
+      "action": "Moved file",
+      "details": "download_call_audio.py -> src/downloaders/",
+      "timestamp": "2025-07-16T17:27:21.515644"
+    },
+    {
+      "action": "Moved file",
+      "details": "complete_transcription.py -> src/downloaders/",
+      "timestamp": "2025-07-16T17:27:21.516002"
+    },
+    {
+      "action": "Moved file",
+      "details": "check_calls.py -> scripts/",
+      "timestamp": "2025-07-16T17:27:21.516247"
+    },
+    {
+      "action": "Moved file",
+      "details": "check_calls_table.py -> scripts/",
+      "timestamp": "2025-07-16T17:27:21.516507"
+    },
+    {
+      "action": "Moved file",
+      "details": "upload_to_supabase.py -> scripts/",
+      "timestamp": "2025-07-16T17:27:21.516759"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_dc_api.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.517506"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_multiple_calls_fixed.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.517831"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_simple.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.518079"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_audio_download.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.518206"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_transcribe.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.518319"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_mcp_browser.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.518576"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_recording_access.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.518717"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_main.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.518919"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_call.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.519026"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_direct_download.py -> tests/",
+      "timestamp": "2025-07-16T17:27:21.519136"
+    },
+    {
+      "action": "Moved file",
+      "details": "dashboard.png -> docs/images/",
+      "timestamp": "2025-07-16T17:27:21.519784"
+    },
+    {
+      "action": "Moved file",
+      "details": "call_detail.png -> docs/images/",
+      "timestamp": "2025-07-16T17:27:21.519929"
+    },
+    {
+      "action": "Moved file",
+      "details": "calls_page_fresh.png -> docs/images/",
+      "timestamp": "2025-07-16T17:27:21.520291"
+    },
+    {
+      "action": "Moved file",
+      "details": "calls_page.png -> docs/images/",
+      "timestamp": "2025-07-16T17:27:21.520436"
+    },
+    {
+      "action": "Moved file",
+      "details": "after_click.png -> docs/images/",
+      "timestamp": "2025-07-16T17:27:21.520760"
+    },
+    {
+      "action": "Moved file",
+      "details": "test_multiple_calls.log -> data/logs/",
+      "timestamp": "2025-07-16T17:27:21.521381"
+    },
+    {
+      "action": "Moved file",
+      "details": "page_inspection.log -> data/logs/",
+      "timestamp": "2025-07-16T17:27:21.521692"
+    },
+    {
+      "action": "Moved file",
+      "details": "server.log -> data/logs/",
+      "timestamp": "2025-07-16T17:27:21.522021"
+    },
+    {
+      "action": "Moved file",
+      "details": "api_capture.log -> data/logs/",
+      "timestamp": "2025-07-16T17:27:21.522196"
+    },
+    {
+      "action": "Removed file",
+      "details": "api_pipeline_demo.py",
+      "timestamp": "2025-07-16T17:27:21.522582"
+    },
+    {
+      "action": "Removed file",
+      "details": "final_pipeline_demo.py",
+      "timestamp": "2025-07-16T17:27:21.522862"
+    },
+    {
+      "action": "Removed file",
+      "details": "final_pipeline_deepgram.py",
+      "timestamp": "2025-07-16T17:27:21.523232"
+    },
+    {
+      "action": "Removed file",
+      "details": "complete_pipeline_test.py",
+      "timestamp": "2025-07-16T17:27:21.523342"
+    },
+    {
+      "action": "Removed file",
+      "details": "debug_scraper.py",
+      "timestamp": "2025-07-16T17:27:21.523548"
+    },
+    {
+      "action": "Removed file",
+      "details": "scrape_fresh_calls.py",
+      "timestamp": "2025-07-16T17:27:21.523921"
+    },
+    {
+      "action": "Removed file",
+      "details": "scrape_with_network.py",
+      "timestamp": "2025-07-16T17:27:21.524179"
+    },
+    {
+      "action": "Removed file",
+      "details": "test_multiple_calls.py",
+      "timestamp": "2025-07-16T17:27:21.524596"
+    },
+    {
+      "action": "Removed file",
+      "details": "simple_click_test.py",
+      "timestamp": "2025-07-16T17:27:21.524986"
+    },
+    {
+      "action": "Removed file",
+      "details": "manual_test.py",
+      "timestamp": "2025-07-16T17:27:21.525356"
+    },
+    {
+      "action": "Removed file",
+      "details": "test_download.mp3",
+      "timestamp": "2025-07-16T17:27:21.525458"
+    },
+    {
+      "action": "Removed file",
+      "details": "test_CAb653e4cdfcf379ba4dc97cebf12c2811.mp3",
+      "timestamp": "2025-07-16T17:27:21.525871"
+    },
+    {
+      "action": "Removed file",
+      "details": "test_CAa5cbe57a8f3acfa11b034c41856d9cb7.mp3",
+      "timestamp": "2025-07-16T17:27:21.526105"
+    },
+    {
+      "action": "Removed file",
+      "details": "test_CAa4dc3d3112ae5ef2bb7a4ffb23b2dbb3.mp3",
+      "timestamp": "2025-07-16T17:27:21.526357"
+    },
+    {
+      "action": "Removed file",
+      "details": "test_call_20250716_082821.mp3",
+      "timestamp": "2025-07-16T17:27:21.526552"
+    },
+    {
+      "action": "Removed file",
+      "details": "test_CAbabee2dbca9380cae39d60b202671410.mp3",
+      "timestamp": "2025-07-16T17:27:21.526862"
+    },
+    {
+      "action": "Removed file",
+      "details": "test_CA0641234fca1ca1c7871b140df010c41f.mp3",
+      "timestamp": "2025-07-16T17:27:21.527089"
+    },
+    {
+      "action": "Removed file",
+      "details": "mcp_browser_complete_demo.py",
+      "timestamp": "2025-07-16T17:27:21.527426"
+    },
+    {
+      "action": "Moved sensitive file",
+      "details": "captured_headers.json -> config/",
+      "timestamp": "2025-07-16T17:27:21.527993"
+    },
+    {
+      "action": "Moved sensitive file",
+      "details": ".mcp.json -> config/",
+      "timestamp": "2025-07-16T17:27:21.528366"
+    },
+    {
+      "action": "Updated .gitignore",
+      "details": "Added 2 entries",
+      "timestamp": "2025-07-16T17:27:21.529347"
+    },
+    {
+      "action": "Created __init__.py",
+      "details": "src",
+      "timestamp": "2025-07-16T17:27:21.529511"
+    },
+    {
+      "action": "Created __init__.py",
+      "details": "src/scrapers",
+      "timestamp": "2025-07-16T17:27:21.529617"
+    },
+    {
+      "action": "Created __init__.py",
+      "details": "src/pipelines",
+      "timestamp": "2025-07-16T17:27:21.529703"
+    },
+    {
+      "action": "Created __init__.py",
+      "details": "src/utils",
+      "timestamp": "2025-07-16T17:27:21.529785"
+    },
+    {
+      "action": "Created __init__.py",
+      "details": "src/downloaders",
+      "timestamp": "2025-07-16T17:27:21.529865"
+    },
+    {
+      "action": "Created __init__.py",
+      "details": "tests",
+      "timestamp": "2025-07-16T17:27:21.529944"
+    },
+    {
+      "action": "Created .env.example",
+      "details": "Template for environment variables",
+      "timestamp": "2025-07-16T17:27:21.530084"
+    }
+  ],
+  "backup_location": "/Users/dfm/Documents/GitHub/mcp-call-analyzer/backup_20250716_172721"
+}

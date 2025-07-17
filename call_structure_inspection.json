@@ -1,0 +1,432 @@
+{
+  "call_data": {
+    "_id": "687826ced84270fd7280ec03",
+    "tenantId": "657cad0ba2a98d48fdc9acec",
+    "From": "+19046212126",
+    "To": "sip:+19042033020@dc-autoservice.sip.twilio.com:5061;transport=tls",
+    "ParentCallSid": "",
+    "Called": "sip:+19042033020@dc-autoservice.sip.twilio.com:5061;transport=tls",
+    "Direction": "outbound",
+    "CallSid": "CA8f7adcb0e2c63185c66e9d86fdac970a",
+    "Caller": "sip:2003@172.16.0.50",
+    "SipCallId": "9804c475-dd36-123e-929c-1276eb47bd23",
+    "name": "MIDDLEBURG   FL",
+    "siteInfo": "60f6dddd87f500182f11af64",
+    "ext": "2003",
+    "purged": false,
+    "contactId": "68781500d84270fd7280ea54",
+    "callPath": [
+      {
+        "name": "Start",
+        "step": 0,
+        "subStep": null,
+        "CallSid": "CA8f7adcb0e2c63185c66e9d86fdac970a",
+        "CallStatus": "ringing",
+        "Called": "sip:+19042033020@dc-autoservice.sip.twilio.com:5061;transport=tls",
+        "Caller": "sip:2003@172.16.0.50",
+        "Direction": "outbound",
+        "date": "2025-07-16T22:25:18.180Z"
+      },
+      {
+        "name": "Call Completed",
+        "step": 0,
+        "subStep": null,
+        "CallSid": "CA8f7adcb0e2c63185c66e9d86fdac970a",
+        "CallStatus": "completed",
+        "Called": "sip:+19042033020@dc-autoservice.sip.twilio.com:5061;transport=tls",
+        "Caller": "sip:2003@172.16.0.50",
+        "Direction": "outbound",
+        "DialCallStatus": "completed",
+        "Digits": null,
+        "date": "2025-07-16T22:26:41.351Z"
+      },
+      {
+        "name": "Call Ended",
+        "step": 0,
+        "subStep": null,
+        "CallSid": "CA8f7adcb0e2c63185c66e9d86fdac970a",
+        "CallStatus": "completed",
+        "Called": "sip:+19042033020@dc-autoservice.sip.twilio.com:5061;transport=tls",
+        "Caller": "sip:2003@172.16.0.50",
+        "Direction": "inbound",
+        "DialCallStatus": null,
+        "Digits": null,
+        "date": "2025-07-16T22:26:41.407Z"
+      }
+    ],
+    "vendor": false,
+    "date_created": "2025-07-16T22:25:18.332Z",
+    "date_updated": "2025-07-16T22:26:49.494Z",
+    "__v": 0,
+    "call_uuid": "e72d4246-f0b1-4366-967d-9e79936e9e8a",
+    "holdTime": 0,
+    "mosScore": "4.50",
+    "CallDuration": 58,
+    "RecordingSid": "RE8062f526dbe046baa839c27a7b69c74a",
+    "talkTime": 0,
+    "ringTime": 0,
+    "RecordingDuration": 59,
+    "advisorIQ": {
+      "id": "chatcmpl-Bu4sJtJbh9q4qEg3G2XFL9qJ0QfXp",
+      "object": "chat.completion",
+      "created": 1752704807,
+      "model": "gpt-4o-mini-2024-07-18",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"sentiment\": \"0\",\n    \"summary\": \"The advisor left a voicemail to a customer regarding a previous inquiry about a power steering issue on a Ford Taurus. The advisor mentioned they are leaving for the day but offered to assist the customer the following morning with a free estimate.\",\n    \"feedback\": \"Advisor provided relevant information and left a clear message to encourage follow-up. Voicemail was polite and courtesy.\",\n    \"tags\": [\"general\", \"unknown\"]\n}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "text": "Sentiment: Neutral\n\nSummary: The advisor left a voicemail to a customer regarding a previous inquiry about a power steering issue on a Ford Taurus. The advisor mentioned they are leaving for the day but offered to assist the customer the following morning with a free estimate.\n\nFeedback: Advisor provided relevant information and left a clear message to encourage follow-up. Voicemail was polite and courtesy."
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 777,
+        "completion_tokens": 96,
+        "total_tokens": 873,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Telephone number nine zero four two zero three three zero two zero can't take your call now.",
+              "start": 0.32,
+              "end": 1.447619
+            },
+            {
+              "text": "At the tone, please record your message.",
+              "start": 1.447619,
+              "end": 5.54
+            },
+            {
+              "text": "When you've",
+              "start": 13.835,
+              "end": 14.315001
+            }
+          ],
+          "channel": 1,
+          "num_words": 26,
+          "start": 0.32,
+          "end": 14.315001
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 14.055,
+              "end": 14.555
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 14.055,
+          "end": 14.555
+        },
+        {
+          "sentences": [
+            {
+              "text": "finished",
+              "start": 14.315001,
+              "end": 14.795
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 14.315001,
+          "end": 14.795
+        },
+        {
+          "sentences": [
+            {
+              "text": "Hey.",
+              "start": 14.612223,
+              "end": 15.112223
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 14.612223,
+          "end": 15.112223
+        },
+        {
+          "sentences": [
+            {
+              "text": "recording,",
+              "start": 14.795,
+              "end": 15.295
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 14.795,
+          "end": 15.295
+        },
+        {
+          "sentences": [
+            {
+              "text": "I'm",
+              "start": 15.169445,
+              "end": 15.669445
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 15.169445,
+          "end": 15.669445
+        },
+        {
+          "sentences": [
+            {
+              "text": "simply",
+              "start": 15.435,
+              "end": 15.915
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 15.435,
+          "end": 15.915
+        },
+        {
+          "sentences": [
+            {
+              "text": "calling",
+              "start": 15.726667,
+              "end": 16.226667
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 15.726667,
+          "end": 16.226667
+        },
+        {
+          "sentences": [
+            {
+              "text": "hang up",
+              "start": 15.915,
+              "end": 16.555
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 15.915,
+          "end": 16.555
+        },
+        {
+          "sentences": [
+            {
+              "text": "from",
+              "start": 16.28389,
+              "end": 16.78389
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 16.28389,
+          "end": 16.78389
+        },
+        {
+          "sentences": [
+            {
+              "text": "or press",
+              "start": 16.555,
+              "end": 17.195
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 16.555,
+          "end": 17.195
+        },
+        {
+          "sentences": [
+            {
+              "text": "JJ",
+              "start": 16.841112,
+              "end": 17.341112
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 16.841112,
+          "end": 17.341112
+        },
+        {
+          "sentences": [
+            {
+              "text": "pound",
+              "start": 17.195,
+              "end": 17.595
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 17.195,
+          "end": 17.595
+        },
+        {
+          "sentences": [
+            {
+              "text": "Auto",
+              "start": 17.398335,
+              "end": 17.898335
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 17.398335,
+          "end": 17.898335
+        },
+        {
+          "sentences": [
+            {
+              "text": "for further",
+              "start": 17.595,
+              "end": 18.315
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 17.595,
+          "end": 18.315
+        },
+        {
+          "sentences": [
+            {
+              "text": "in",
+              "start": 17.955555,
+              "end": 18.455555
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 17.955555,
+          "end": 18.455555
+        },
+        {
+          "sentences": [
+            {
+              "text": "options.",
+              "start": 18.315,
+              "end": 18.815
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 18.315,
+          "end": 18.815
+        },
+        {
+          "sentences": [
+            {
+              "text": "Orange Park.",
+              "start": 18.51278,
+              "end": 19.57
+            },
+            {
+              "text": "Recently had a call from you just a little bit ago about a power steering issue on I believe it was a Ford Torres.",
+              "start": 19.627224,
+              "end": 30.880001
+            },
+            {
+              "text": "I was just trying to check-in with you.",
+              "start": 31.1,
+              "end": 32.7
+            },
+            {
+              "text": "We closed the five thirty, but we stayed a little late for you to bring the vehicle by.",
+              "start": 32.7,
+              "end": 37.18
+            },
+            {
+              "text": "Just wanted to let you know we are leaving.",
+              "start": 37.18,
+              "end": 39.04
+            }
+          ],
+          "channel": 0,
+          "num_words": 61,
+          "start": 18.51278,
+          "end": 39.04
+        },
+        {
+          "sentences": [
+            {
+              "text": "And I hope you have a great night.",
+              "start": 39.1,
+              "end": 41.28
+            },
+            {
+              "text": "Please please feel free to Give me a call in the morning.",
+              "start": 42.3,
+              "end": 46.435
+            },
+            {
+              "text": "We can get it checked out for you and get it in at no cost, and we'll get you a free rent estimate.",
+              "start": 46.435,
+              "end": 50.535
+            },
+            {
+              "text": "My name is John.",
+              "start": 50.755,
+              "end": 51.555
+            },
+            {
+              "text": "Our phone number again is nine zero four six two one two one two six, and we'll talk to you soon.",
+              "start": 51.555,
+              "end": 57.475
+            }
+          ],
+          "channel": 0,
+          "num_words": 68,
+          "start": 39.1,
+          "end": 57.475
+        },
+        {
+          "sentences": [
+            {
+              "text": "Thank you.",
+              "start": 57.475,
+              "end": 57.875
+            },
+            {
+              "text": "Bye.",
+              "start": 57.875,
+              "end": 58.375
+            }
+          ],
+          "channel": 0,
+          "num_words": 3,
+          "start": 57.475,
+          "end": 58.375
+        }
+      ]
+    },
+    "labels": [
+      "general",
+      "unknown"
+    ],
+    "sentiment": "0",
+    "transcription": "\nCustomer Telephone number nine zero four two zero three three zero two zero can't take your call now. At the tone, please record your message. When you've\n\nAdvisor Yeah.\n\nCustomer finished\n\nAdvisor Hey.\n\nCustomer recording,\n\nAdvisor I'm\n\nCustomer simply\n\nAdvisor calling\n\nCustomer hang up\n\nAdvisor from\n\nCustomer or press\n\nAdvisor JJ\n\nCustomer pound\n\nAdvisor Auto\n\nCustomer for further\n\nAdvisor in\n\nCustomer options.\n\nAdvisor Orange Park. Recently had a call from you just a little bit ago about a power steering issue on I believe it was a Ford Torres. I was just trying to check-in with you. We closed the five thirty, but we stayed a little late for you to bring the vehicle by. Just wanted to let you know we are leaving.\n\nAnd I hope you have a great night. Please please feel free to Give me a call in the morning. We can get it checked out for you and get it in at no cost, and we'll get you a free rent estimate. My name is John. Our phone number again is nine zero four six two one two one two six, and we'll talk to you soon.\n\nThank you. Bye.",
+    "convertedDuration": 58
+  },
+  "found_urls": []
+}
