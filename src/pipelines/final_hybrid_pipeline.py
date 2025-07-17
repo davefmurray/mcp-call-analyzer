@@ -32,13 +32,22 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Initialize clients
-openai_client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-deepgram = DeepgramClient(os.getenv("DEEPGRAM_API_KEY"))
-supabase = create_client(
-    os.getenv("SUPABASE_URL"),
-    os.getenv("SUPABASE_KEY")
-)
+# Initialize clients (lazy loading)
+openai_client = None
+deepgram = None
+supabase = None
+
+def _init_clients():
+    global openai_client, deepgram, supabase
+    if not openai_client:
+        openai_client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    if not deepgram:
+        deepgram = DeepgramClient(os.getenv("DEEPGRAM_API_KEY"))
+    if not supabase:
+        supabase_url = os.getenv("SUPABASE_URL")
+        supabase_key = os.getenv("SUPABASE_KEY")
+        if supabase_url and supabase_key:
+            supabase = create_client(supabase_url, supabase_key)
 
 
 class FinalHybridPipeline:
@@ -49,6 +58,7 @@ class FinalHybridPipeline:
         self.password = os.getenv("DASHBOARD_PASSWORD")
         self.token = None
         self.client = httpx.AsyncClient(timeout=60.0)
+        _init_clients()
         
     async def authenticate(self) -> str:
         """Authenticate with DC API"""
