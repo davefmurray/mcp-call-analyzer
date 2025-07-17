@@ -1,5 +1,0 @@
-[phases.install]
-cmds = ["python -m pip install -r requirements_minimal.txt"]
-
-[start]
-cmd = "python main_minimal.py"
